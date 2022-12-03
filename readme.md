@@ -37,7 +37,7 @@
   - Удаление пользователя
 
 ## <a name="Jenkins">Запуск автотестов из Jenkins</a>
-Для удаленного запуска автотестов в <a href="https://jenkins.autotests.cloud/view/мои%20задачи/job/002-annazukowska-python-reqres-api/" target="_blank">Jenkins</a> создана задача (job) и связана с репозиторием в Github.
+Для удаленного запуска автотестов в <a href="https://jenkins.autotests.cloud/view/мои%20задачи/job/002-annazukowska-python-reqres-api/" target="_blank">Jenkins</a> создана задача (job), настроена и связана с репозиторием в Github.
 
 
 ## <a name="Allure">Отчеты о прохождении тестов Allure report</a>
