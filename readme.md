@@ -27,8 +27,6 @@
 <img width="6%" title="Jira" src="images/logo/jira.svg"> 
 </p>
 
-
-
 ## <a name="Тесты">Тест-кейсы</a>
 - Авторизация:
   - Успешная авторизация
@@ -39,8 +37,7 @@
   - Удаление пользователя
 
 ## <a name="Jenkins">Запуск автотестов из Jenkins</a>
-Для запуска тестов из Jenkins необходимо нажать кнопку "Собрать сейчас".
-Вставить картинку
+Для удаленного запуска автотестов в <a href="https://jenkins.autotests.cloud/view/мои%20задачи/job/002-annazukowska-python-reqres-api/" target="_blank">Jenkins</a> создана задача (job) и связана с репозиторием в Github.
 
 
 ## <a name="Allure">Отчеты о прохождении тестов Allure report</a>
