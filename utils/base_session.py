@@ -1,6 +1,5 @@
 import allure
 from requests import Session
-from utils import attach
 
 
 class BaseSession(Session):
@@ -11,8 +10,5 @@ class BaseSession(Session):
     def request(self, method, url, **kwargs):
         with allure.step(f'Выполнен запрос {method} {url}'):
             response = super().request(method, url=f'{self.base_url}{url}', **kwargs)
-            attach.add_body_request(response)
-            attach.add_curl(response)
-            attach.add_response(response)
             return response
 
