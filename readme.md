@@ -1,6 +1,7 @@
 # Проект автоматизации тестирования API для сервиса REQRES.IN
+
 <img width="1087" alt="image" src="https://user-images.githubusercontent.com/109241600/205449027-eb2ebe81-593c-4fb7-b1c3-23468c3f5179.png">
-REQRES.IN - это сервис, который имитирует реальные сценарии использования REST API.
+<a href="https://reqres.in" target="_blank">REQRES.IN</a> - это сервис, который имитирует реальные сценарии использования REST API.
 
 ## Содержание
 + [Технологии и инструменты](#Технологии)
