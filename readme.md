@@ -37,11 +37,13 @@
   - Удаление пользователя
 
 ## <a name="Jenkins">Запуск автотестов из Jenkins</a>
-Для удаленного запуска автотестов в <a href="https://jenkins.autotests.cloud/view/мои%20задачи/job/002-annazukowska-python-reqres-api/" target="_blank">Jenkins</a> создана задача (job), настроена и связана с репозиторием в Github.
+Для удаленного запуска автотестов в <a href="https://jenkins.autotests.cloud/view/мои%20задачи/job/002-annazukowska-python-reqres-api/" target="_blank">Jenkins</a> создана задача (job), настроена и связана с репозиторием в GitHub.
+
+<img width="1165" alt="image" src="https://user-images.githubusercontent.com/109241600/205457963-63e67bb7-ea07-45b1-86ad-e46f76322bb8.png">
 
 
 ## <a name="Allure">Отчеты о прохождении тестов Allure report</a>
-Вставить скриншоты
+Результаты 
 
 
 ## <a name="Telegram">Оповещение о результатах через Telegram-бот</a>
