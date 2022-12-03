@@ -16,6 +16,12 @@ REQRES.IN - это сервис, который имитирует реальн�
 <img width="6%" title="PyCharm" src="images/logo/pycharm.svg">
 <img width="6%" title="Python" src="images/logo/python.svg">
 <img width="6%" title="Pytest" src="images/logo/pytest.svg">
+<img width="6%" title="Requests" src="images/logo/requests.png">
+<img width="6%" title="GitHub" src="images/logo/GitHub.svg">
+<img width="6%" title="Rest" src="images/logo/rest-assured.svg">
+<img width="6%" title="Jenkins" src="images/logo/Jenkins.svg">  
+<img width="6%" title="AllureReport" src="images/logo/Allure_Report.svg">  
+<img width="6%" title="AllureTestOPS" src="images/logo/Allure_TO.svg">  
 </p>
 
 
