@@ -21,7 +21,9 @@ REQRES.IN - это сервис, который имитирует реальн�
 <img width="6%" title="Rest" src="images/logo/rest-assured.svg">
 <img width="6%" title="Jenkins" src="images/logo/Jenkins.svg">  
 <img width="6%" title="AllureReport" src="images/logo/Allure_Report.svg">  
-<img width="6%" title="AllureTestOPS" src="images/logo/Allure_TO.svg">  
+<img width="6%" title="AllureTestOPS" src="images/logo/Allure_TO.svg"> 
+<img width="6%" title="Telegram" src="images/logo/Telegram.svg">  
+<img width="6%" title="Jira" src="images/logo/jira.svg"> 
 </p>
 
 
