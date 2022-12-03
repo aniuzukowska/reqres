@@ -65,7 +65,7 @@ def test_login_unsuccessful():
 @allure.tag('critical')
 @allure.severity(Severity.CRITICAL)
 @allure.feature('API-тесты reqres.in')
-@allure.story('Действия с пользователями')
+@allure.story('Действия с пользователем')
 @allure.title('Добавление нового пользователя')
 def test_create_user():
     with allure.step("Тестовые данные"):
@@ -91,7 +91,7 @@ def test_create_user():
 @allure.tag('critical')
 @allure.severity(Severity.CRITICAL)
 @allure.feature('API-тесты reqres.in')
-@allure.story('Действия с пользователями')
+@allure.story('Действия с пользователем')
 @allure.title('Изменение данных пользователя')
 def test_update_user():
     with allure.step("Тестовые данные"):
@@ -118,7 +118,7 @@ def test_update_user():
 @allure.tag('critical')
 @allure.severity(Severity.CRITICAL)
 @allure.feature('API-тесты reqres.in')
-@allure.story('Действия с пользователями')
+@allure.story('Действия с пользователем')
 @allure.title('Удаление пользователя')
 def test_delete_user():
     with allure.step("Тестовые данные"):
