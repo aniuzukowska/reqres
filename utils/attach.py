@@ -1,6 +1,7 @@
 import allure
 import curlify
 from requests import Response
+import json
 
 
 def add_curl(response: Response):
@@ -24,7 +25,7 @@ def add_body_request(response: Response):
 
 def add_response(response: Response):
     allure.attach(
-        body=response.json(),
+        body=json.dumps(response.json(), indent=4),
         name=f'Response body (status_code={response.status_code})',
         attachment_type=allure.attachment_type.TEXT,
         extension='txt'
