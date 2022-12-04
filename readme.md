@@ -52,19 +52,17 @@
 <img width="1432" alt="image" src="https://user-images.githubusercontent.com/109241600/205479476-9996ca6b-1e5b-4182-839d-89c6e9318223.png">
 <img width="1433" alt="image" src="https://user-images.githubusercontent.com/109241600/205479511-776f70cc-4b7c-400c-a1a4-37c1243c9be8.png">
 
-
-
-
-
-
-
 ## <a name="TestOPS">Интеграция с Allure TestOPS</a>
-Вставить скриншоты
+Настроена интеграция Jenkins с Allure TestOPS.
+При первом после интеграции прохождении тестов в Jenkins, в Allure TestOPS были автоматически созданы такие тест-кейсы:
+<img width="1436" alt="image" src="https://user-images.githubusercontent.com/109241600/205479711-64b90846-bb3a-40fe-99bb-6a80c239544b.png">
+
+Можно посмотреть историю выполненных прогонов:
+<img width="1435" alt="image" src="https://user-images.githubusercontent.com/109241600/205479800-0a64d2b1-8392-486f-9ec5-2f082e61d889.png">
+<img width="1435" alt="image" src="https://user-images.githubusercontent.com/109241600/205480162-37354093-dc73-42d7-9a8f-654c6baaef05.png">
 
 ## <a name="Jira">Интеграция с Jira</a>
-Вставить скриншоты
+Настроена интеграция Allure TestOPS с Jira, а именно - к задаче в Jira привязаны тест-кейсы и прогон с результатами тестирования из Allure TestOPS.
 
-
-
-
-
+<img width="973" alt="image" src="https://user-images.githubusercontent.com/109241600/205480051-66eb900a-aed3-4ba6-b2d5-9dcc908e1884.png">
+<img width="976" alt="image" src="https://user-images.githubusercontent.com/109241600/205480067-0d952b85-01eb-4cb3-9f3f-1878077833ce.png">
