@@ -42,7 +42,7 @@
 <img width="1165" alt="image" src="https://user-images.githubusercontent.com/109241600/205457963-63e67bb7-ea07-45b1-86ad-e46f76322bb8.png">
 
 
-## <a name="Telegram">Оповещение о результатах через Telegram-бот</a>
+## <a name="Telegram">Оповещение о результатах тестирования через Telegram-бот</a>
 Вставить скриншоты
 
 
