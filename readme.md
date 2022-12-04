@@ -7,8 +7,8 @@
 + [Технологии и инструменты](#Технологии)
 + [Тест-кейсы](#Тесты)
 + [Запуск автотестов из Jenkins](#Jenkins) 
-+ [Отчеты о прохождении тестов Allure report](#Allure) 
 + [Оповещение о результатах через Telegram-бот](#Telegram) 
++ [Отчеты о прохождении тестов Allure report](#Allure) 
 + [Интеграция с Allure TestOPS](#TestOPS) 
 + [Интеграция с Jira](#Jira) 
 
@@ -42,12 +42,15 @@
 <img width="1165" alt="image" src="https://user-images.githubusercontent.com/109241600/205457963-63e67bb7-ea07-45b1-86ad-e46f76322bb8.png">
 
 
+## <a name="Telegram">Оповещение о результатах через Telegram-бот</a>
+Вставить скриншоты
+
+
 ## <a name="Allure">Отчеты о прохождении тестов Allure report</a>
 Результаты 
 
 
-## <a name="Telegram">Оповещение о результатах через Telegram-бот</a>
-Вставить скриншоты
+
 
 ## <a name="TestOPS">Интеграция с Allure TestOPS</a>
 Вставить скриншоты
