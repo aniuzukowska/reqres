@@ -28,10 +28,10 @@
 </p>
 
 ## <a name="Тесты">Тест-кейсы</a>
-- Авторизация:
+###### Авторизация:
   - Успешная авторизация
   - Неуспешная авторизация (не указан пароль)
-- Действия с пользователем:
+###### Действия с пользователем:
   - Добавление пользователя
   - Изменение данных пользователя
   - Удаление пользователя
@@ -41,13 +41,19 @@
 
 <img width="1165" alt="image" src="https://user-images.githubusercontent.com/109241600/205457963-63e67bb7-ea07-45b1-86ad-e46f76322bb8.png">
 
+## <a name="Telegram">Уведомление о результатах тестирования через Telegram-бот</a>
+После завершения тестов приходит такое оповещение в Telegram с помощью заранее созданного Telegram-бота, привязанного к задаче в Jenkins.
 
-## <a name="Telegram">Оповещение о результатах тестирования через Telegram-бот</a>
-Вставить скриншоты
-
+<img width="365" alt="image" src="https://user-images.githubusercontent.com/109241600/205478808-6766df9c-786a-4350-bf7d-a23b8af7e053.png">
 
 ## <a name="Allure">Отчеты о прохождении тестов Allure report</a>
-Результаты 
+После завершения тестов также формируются отчеты <a href="https://jenkins.autotests.cloud/view/мои%20задачи/job/002-annazukowska-python-reqres-api/26/allure/#behaviors/c2aab3ca885b96191db7369b6e011b58/88db428ef8b1f909/history" target="_blank">Allure report</a>, которые можно посмотреть со страницы задачи в Jenkins.
+
+<img width="1432" alt="image" src="https://user-images.githubusercontent.com/109241600/205479476-9996ca6b-1e5b-4182-839d-89c6e9318223.png">
+<img width="1433" alt="image" src="https://user-images.githubusercontent.com/109241600/205479511-776f70cc-4b7c-400c-a1a4-37c1243c9be8.png">
+
+
+
 
 
 
