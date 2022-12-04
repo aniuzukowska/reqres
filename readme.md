@@ -62,7 +62,7 @@
 <img width="1435" alt="image" src="https://user-images.githubusercontent.com/109241600/205480162-37354093-dc73-42d7-9a8f-654c6baaef05.png">
 
 ## <a name="Jira">Интеграция с Jira</a>
-Настроена интеграция Allure TestOPS с Jira, а именно - к задаче в Jira привязаны тест-кейсы и прогон с результатами тестирования из Allure TestOPS.
+Настроена интеграция Allure TestOPS с Jira. К задаче в Jira привязаны тест-кейсы и прогон с результатами тестирования из Allure TestOPS.
 
 <img width="973" alt="image" src="https://user-images.githubusercontent.com/109241600/205480051-66eb900a-aed3-4ba6-b2d5-9dcc908e1884.png">
 <img width="976" alt="image" src="https://user-images.githubusercontent.com/109241600/205480067-0d952b85-01eb-4cb3-9f3f-1878077833ce.png">
