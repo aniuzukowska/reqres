@@ -74,7 +74,7 @@ def test_create_user():
         attach.add_comment('Данные нового пользователя', f'name = "{new_user_name}", job = "{new_user_job}"')
 
     with allure.step("Добавление нового пользователя"):
-        result: Response = Reqres().create_user(new_user_name, new_user_job)
+        result: Response = Reqres().create_user(new_user_name, new_user_job, LOGIN, PASSWORD)
         created_user = CreatedUser(result)
 
     with allure.step('Проверка результата'):
@@ -101,7 +101,7 @@ def test_update_user():
         attach.add_comment(f'Новые данные для пользователя c id={user_id}', f'name = "{new_name}", job = "{new_job}"')
 
     with allure.step("Выполняем изменение данных пользователя"):
-        result: Response = Reqres().update_user(user_id, new_name, new_job)
+        result: Response = Reqres().update_user(user_id, new_name, new_job, LOGIN, PASSWORD)
         updated_user = UpdatedUser(result)
 
     with allure.step("Проверяем результат"):
@@ -126,7 +126,7 @@ def test_delete_user():
         attach.add_comment(f'Id пользователя', f'{user_id}')
 
     with allure.step("Выполняем удаление пользователя"):
-        result: Response = Reqres().delete_user(user_id)
+        result: Response = Reqres().delete_user(user_id, LOGIN, PASSWORD)
         deleted_user = DeletedUser(result)
 
     with allure.step("Проверяем результат"):
