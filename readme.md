@@ -49,7 +49,7 @@
 ## <a name="Allure">Отчеты о прохождении тестов Allure report</a>
 После завершения тестов также формируются отчеты <a href="https://jenkins.autotests.cloud/view/мои%20задачи/job/002-annazukowska-python-reqres-api/26/allure/#behaviors/c2aab3ca885b96191db7369b6e011b58/88db428ef8b1f909/history" target="_blank">Allure report</a>, которые можно посмотреть со страницы задачи в Jenkins.
 
-<img width="1385" alt="image" src="https://user-images.githubusercontent.com/109241600/206013674-e41ebd32-d417-41a3-9f34-d37c03f66096.png">
+<img width="1384" alt="image" src="https://user-images.githubusercontent.com/109241600/206015670-7fdc5435-5c0f-47fb-a0d2-958a9a696529.png">
 <img width="1433" alt="image" src="https://user-images.githubusercontent.com/109241600/205479511-776f70cc-4b7c-400c-a1a4-37c1243c9be8.png">
 
 ## <a name="TestOPS">Интеграция с Allure TestOPS</a>
