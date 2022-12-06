@@ -72,9 +72,11 @@ def test_create_user():
         new_user_name = 'Anna Zukowska'
         new_user_job = 'QA'
         attach.add_comment('Данные нового пользователя', f'name = "{new_user_name}", job = "{new_user_job}"')
+    with allure.step("Выполняем авторизацию"):
+        token = Reqres().get_token(LOGIN, PASSWORD)
 
     with allure.step("Добавление нового пользователя"):
-        result: Response = Reqres().create_user(new_user_name, new_user_job, LOGIN, PASSWORD)
+        result: Response = Reqres().create_user(new_user_name, new_user_job, token)
         created_user = CreatedUser(result)
 
     with allure.step('Проверка результата'):
@@ -99,9 +101,11 @@ def test_update_user():
         new_name = 'Anna Zukowska'
         new_job = 'QA'
         attach.add_comment(f'Новые данные для пользователя c id={user_id}', f'name = "{new_name}", job = "{new_job}"')
+    with allure.step("Выполняем авторизацию"):
+        token = Reqres().get_token(LOGIN, PASSWORD)
 
     with allure.step("Выполняем изменение данных пользователя"):
-        result: Response = Reqres().update_user(user_id, new_name, new_job, LOGIN, PASSWORD)
+        result: Response = Reqres().update_user(user_id, new_name, new_job, token)
         updated_user = UpdatedUser(result)
 
     with allure.step("Проверяем результат"):
@@ -124,9 +128,11 @@ def test_delete_user():
     with allure.step("Тестовые данные"):
         user_id = 2
         attach.add_comment(f'Id пользователя', f'{user_id}')
+    with allure.step("Выполняем авторизацию"):
+        token = Reqres().get_token(LOGIN, PASSWORD)
 
     with allure.step("Выполняем удаление пользователя"):
-        result: Response = Reqres().delete_user(user_id, LOGIN, PASSWORD)
+        result: Response = Reqres().delete_user(user_id, token)
         deleted_user = DeletedUser(result)
 
     with allure.step("Проверяем результат"):

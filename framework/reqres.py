@@ -34,28 +34,28 @@ class Reqres:
         )
         return {'token': f'{response.cookies.get("token")}'}
 
-    def create_user(self, name, job, login, password) -> Response:
+    def create_user(self, name, job, token) -> Response:
         response = self.reqres.post(
             url='/api/users',
             json={
                 'name': name,
                 'job': job
             },
-            cookies=self.get_token(login, password)
+            cookies=token
         )
         attach.add_body_request(response)
         attach.add_curl(response)
         attach.add_response(response)
         return response
 
-    def update_user(self, user_id, name, job, login, password) -> Response:
+    def update_user(self, user_id, name, job, token) -> Response:
         response = self.reqres.patch(
             url=f'/api/users/{user_id}',
             json={
                 'name': name,
                 'job': job
             },
-            cookies=self.get_token(login, password)
+            cookies=token
         )
         attach.add_body_request(response)
         attach.add_curl(response)
@@ -63,8 +63,8 @@ class Reqres:
         return response
 
 
-    def delete_user(self, user_id, login, password) -> Response:
-        response = self.reqres.delete(f'/api/users/{user_id}', cookies=self.get_token(login, password))
+    def delete_user(self, user_id, token) -> Response:
+        response = self.reqres.delete(f'/api/users/{user_id}', cookies=token)
         attach.add_curl(response)
         return response
 
