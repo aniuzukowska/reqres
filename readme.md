@@ -14,17 +14,17 @@
 
 ## <a name="Технологии">Технологии и инструменты, использованные в проекте</a>
 <p align="center">
-<img width="6%" title="PyCharm" src="images/logo/pycharm.svg">
-<img width="6%" title="Python" src="images/logo/python.svg">
-<img width="6%" title="Pytest" src="images/logo/pytest.svg">
-<img width="6%" title="Requests" src="images/logo/requests.png">
-<img width="6%" title="GitHub" src="images/logo/GitHub.svg">
-<img width="6%" title="Rest" src="images/logo/rest-assured.svg">
-<img width="6%" title="Jenkins" src="images/logo/Jenkins.svg">  
-<img width="6%" title="AllureReport" src="images/logo/Allure_Report.svg">  
-<img width="6%" title="AllureTestOPS" src="images/logo/Allure_TO.svg"> 
-<img width="6%" title="Telegram" src="images/logo/Telegram.svg">  
-<img width="6%" title="Jira" src="images/logo/jira.svg"> 
+<img width="6%" title="PyCharm" src="images/pycharm.svg">
+<img width="6%" title="Python" src="images/python.svg">
+<img width="6%" title="Pytest" src="images/pytest.svg">
+<img width="6%" title="Requests" src="images/requests.png">
+<img width="6%" title="GitHub" src="images/GitHub.svg">
+<img width="6%" title="Rest" src="images/rest-assured.svg">
+<img width="6%" title="Jenkins" src="images/Jenkins.svg">  
+<img width="6%" title="AllureReport" src="images/Allure_Report.svg">  
+<img width="6%" title="AllureTestOPS" src="images/Allure_TO.svg"> 
+<img width="6%" title="Telegram" src="images/Telegram.svg">  
+<img width="6%" title="Jira" src="images/jira.svg"> 
 </p>
 
 ## <a name="Тесты">Тест-кейсы</a>
