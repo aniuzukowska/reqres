@@ -14,17 +14,17 @@
 
 ## <a name="Технологии">Технологии и инструменты, использованные в проекте</a>
 <p align="center">
-<img width="6%" title="PyCharm" src="images/pycharm.svg">
-<img width="6%" title="Python" src="images/python.svg">
-<img width="6%" title="Pytest" src="images/pytest.svg">
-<img width="6%" title="Requests" src="images/requests.png">
-<img width="6%" title="GitHub" src="images/GitHub.svg">
-<img width="6%" title="Rest" src="images/rest-assured.svg">
-<img width="6%" title="Jenkins" src="images/Jenkins.svg">  
-<img width="6%" title="AllureReport" src="images/Allure_Report.svg">  
-<img width="6%" title="AllureTestOPS" src="images/Allure_TO.svg"> 
-<img width="6%" title="Telegram" src="images/Telegram.svg">  
-<img width="6%" title="Jira" src="images/jira.svg"> 
+<img width="6%" title="PyCharm" src="reqres_tests/utils/images/pycharm.svg">
+<img width="6%" title="Python" src="reqres_tests/utils/images/python.svg">
+<img width="6%" title="Pytest" src="reqres_tests/utils/images/pytest.svg">
+<img width="6%" title="Requests" src="reqres_tests/utils/images/requests.png">
+<img width="6%" title="GitHub" src="reqres_tests/utils/images/GitHub.svg">
+<img width="6%" title="Rest" src="reqres_tests/utils/images/rest-assured.svg">
+<img width="6%" title="Jenkins" src="reqres_tests/utils/images/Jenkins.svg">  
+<img width="6%" title="AllureReport" src="reqres_tests/utils/images/Allure_Report.svg">  
+<img width="6%" title="AllureTestOPS" src="reqres_tests/utils/images/Allure_TO.svg"> 
+<img width="6%" title="Telegram" src="reqres_tests/utils/images/Telegram.svg">  
+<img width="6%" title="Jira" src="reqres_tests/utils/images/jira.svg"> 
 </p>
 
 ## <a name="Тесты">Тест-кейсы</a>
