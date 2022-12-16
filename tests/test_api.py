@@ -1,5 +1,6 @@
 import os
 import allure
+import pytest
 from allure_commons.types import Severity
 from dotenv import load_dotenv
 from requests import Response
@@ -39,13 +40,14 @@ def test_login_unsuccessful():
 @allure.feature('API-тесты reqres.in')
 @allure.story('Действия с пользователем')
 @allure.title('Добавление нового пользователя')
-def test_create_user():
+@pytest.mark.parametrize(['name', 'job'], [('Anna Zukowska', 'QA'), ('Anna', '')])
+def test_create_user(name, job):
     token = Reqres().get_token(LOGIN, PASSWORD)
 
-    result: Response = Reqres().create_user(name='Anna Zukowska', job='QA', token=token)
+    result: Response = Reqres().create_user(name=name, job=job, token=token)
 
     created_user = CreatedUser(result)
-    created_user.assert_result('Anna Zukowska', 'QA')
+    created_user.assert_result(name, job)
 
 
 @allure.tag('critical')
