@@ -19,7 +19,7 @@ class CreatedUser:
     def job(self):
         return self.response.json()['job']
 
-    def assert_result(self, new_user_name, new_user_job):
+    def assert_(self, new_user_name, new_user_job):
         with allure.step('Проверка результата'):
             with allure.step('Проверка статус-кода ответа сервера'):
                 assert self.status_code() == 201
@@ -45,7 +45,7 @@ class UpdatedUser:
     def job(self):
         return self.response.json()['job']
 
-    def assert_result(self, new_name, new_job):
+    def assert_(self, new_name, new_job):
         with allure.step("Проверяем результат"):
             with allure.step('Проверка статус-кода ответа сервера'):
                 assert self.status_code() == 200
@@ -65,7 +65,7 @@ class DeletedUser:
     def status_code(self):
         return self.response.status_code
 
-    def assert_result(self):
+    def assert_(self):
         with allure.step("Проверяем результат"):
             with allure.step('Проверка статус-кода ответа сервера'):
                 assert self.status_code() == 204

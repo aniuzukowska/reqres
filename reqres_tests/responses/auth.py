@@ -20,7 +20,7 @@ class AuthSuccessful:
     def token(self):
         return self.response.json()['token']
 
-    def assert_result(self):
+    def assert_(self):
         with allure.step("Проверяем результат"):
             with allure.step('Проверка статус-кода ответа сервера'):
                 assert self.status_code() == 200
@@ -41,7 +41,7 @@ class AuthUnSuccessful:
     def error(self):
         return self.response.json()['error']
 
-    def assert_result(self):
+    def assert_(self):
         with allure.step("Проверяем результат"):
             with allure.step('Проверка статус-кода ответа сервера'):
                 assert self.status_code() == 400
