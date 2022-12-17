@@ -3,7 +3,6 @@ import allure
 import pytest
 from allure_commons.types import Severity
 from dotenv import load_dotenv
-from requests import Response
 from reqres_tests.requests.reqres import Reqres
 from reqres_tests.responses.auth import AuthSuccessful, AuthUnSuccessful
 from reqres_tests.responses.users import CreatedUser, UpdatedUser, DeletedUser
