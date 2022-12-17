@@ -20,8 +20,7 @@ PASSWORD = os.getenv('user_password')
 @allure.title('Успешная авторизация')
 def test_login_successful():
     result: Response = Reqres().login(LOGIN, PASSWORD)
-    auth_successful = AuthSuccessful(result)
-    auth_successful.assert_result()
+    AuthSuccessful(result).assert_()
 
 
 @allure.tag('critical')
@@ -31,8 +30,7 @@ def test_login_successful():
 @allure.title('Неуспешная авторизация (не указан пароль)')
 def test_login_unsuccessful():
     result: Response = Reqres().login(LOGIN, '')
-    auth_un_successful = AuthUnSuccessful(result)
-    auth_un_successful.assert_result()
+    AuthUnSuccessful(result).assert_()
 
 
 @allure.tag('critical')
@@ -43,11 +41,8 @@ def test_login_unsuccessful():
 @pytest.mark.parametrize(['name', 'job'], [('Anna Zukowska', 'QA'), ('Anna', '')])
 def test_create_user(name, job):
     token = Reqres().get_token(LOGIN, PASSWORD)
-
     result: Response = Reqres().create_user(name=name, job=job, token=token)
-
-    created_user = CreatedUser(result)
-    created_user.assert_result(name, job)
+    CreatedUser(result).assert_(name, job)
 
 
 @allure.tag('critical')
@@ -57,11 +52,8 @@ def test_create_user(name, job):
 @allure.title('Изменение данных пользователя')
 def test_update_user():
     token = Reqres().get_token(LOGIN, PASSWORD)
-
     result: Response = Reqres().update_user(user_id=2, name='Anna Zukowska', job='QA', token=token)
-
-    updated_user = UpdatedUser(result)
-    updated_user.assert_result('Anna Zukowska', 'QA')
+    UpdatedUser(result).assert_('Anna Zukowska', 'QA')
 
 
 @allure.tag('critical')
@@ -72,9 +64,9 @@ def test_update_user():
 def test_delete_user():
     token = Reqres().get_token(LOGIN, PASSWORD)
     result: Response = Reqres().delete_user(user_id=2, token=token)
+    DeletedUser(result).assert_()
 
-    deleted_user = DeletedUser(result)
-    deleted_user.assert_result()
+
 
 
 
